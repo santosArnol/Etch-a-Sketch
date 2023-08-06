@@ -42,7 +42,7 @@ body{
 
 .square{
     background-color: white;
-    transition: all 0.1s;
+    transition: all;
 }
 
 .square:hover{

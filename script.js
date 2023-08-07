@@ -7,6 +7,10 @@ const createButton = document.querySelector('.createButton');
 
 const updateSquare = (e) =>{
     e.target.style.backgroundColor = "red"
+    setTimeout(() => {
+        e.target.style.backgroundColor = "white"
+    }, 500
+    )
 
 }
 
